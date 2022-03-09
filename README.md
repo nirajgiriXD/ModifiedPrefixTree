@@ -1,6 +1,6 @@
-# beatingBinarySearchInProgress
+# beatingBinarySearch
 
-The program is written in python and JSON file is used to store the data structure.
+The program is written in python and JSON file is used to store the data structure and the algorithm is still in progress for achieving its goal.
 
 The data structure I have used here is tree but instead of saving the words in nodes I have broken down each word into characters.
 Each character is saved into a node in hierarchy. 
