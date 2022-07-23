@@ -3,7 +3,7 @@ import json
 
 # Global Variables
 filename = "db.json"
-dicfile = "C:/Users/Niraj Giri/Desktop/Alpha Data Structure/dic.txt"
+dicfile = "dic.txt"
 runCount = 0
 stringLengthLimit = 16
 barProgressCount = 1
