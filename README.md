@@ -8,8 +8,10 @@ This approach is independent of the size of array / list from where the word is 
 The time complexity is according to me is **_O(n)_** where n is the size of word to be searched.
 This searching algorithm is an approach to beating the binary search and is still in progress.
 
-
-
 Any kind of suggestion for the improvement of algorithm or program will be highly appreciated.
+
+
+
+PS: I thought to have created a new data structure / algorithm but it already exist.
 
 XD
