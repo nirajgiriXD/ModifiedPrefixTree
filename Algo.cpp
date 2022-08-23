@@ -1,11 +1,9 @@
 #include <iostream>
 #include <fstream>
-#include <chrono>
 #include <string>
 #define numOfNode 26
 
 using namespace std;
-using namespace std::chrono;
 
 class layer {
 public:
@@ -82,19 +80,7 @@ int main()
         fileNew.close();
     }
 
-    auto start = high_resolution_clock::now();
-    for (i = 0; i < numOfWords; i++) {
-        result = search(arr[i], head);
-    }
-    auto stop = high_resolution_clock::now();
-    auto duration = duration_cast<microseconds>(stop - start);
-
-    cout << "Number of Words: " << numOfWords << endl;
-    cout << "Run Time: " << duration.count() << endl;
-
-    delete[] arr;
-
-    /*while (true) {
+    while (true) {
         cout << "\nChoose:\n1 Search\n2 Exit\n> ";
         cin >> opt;
         switch (opt)
@@ -116,6 +102,6 @@ int main()
             cout << "Invalid Option: " + opt;
             exit(0);
         }
-    }*/
+    }
     return 0;
 }
